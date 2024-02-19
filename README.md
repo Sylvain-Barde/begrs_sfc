@@ -16,7 +16,7 @@ Note: the files were run using GPU-enabled and large multi-CPU HPC nodes, theref
 The release provides a zipped archive containing the following folders. These contain all the configuration files for the SFC model as well as all the intermediate results of the scripts, so that the outputs of the paper (i.e. figures) can be generated directly from them, without requiring a full re-run of the entire analysis.
 
 - `/benchmark_sfc_lib`: contains the Java libraries required to run the ABM (see below)
-- `empData`: contains the US Macroeconomic data used in the estimation
+- `/empData`: contains the US Macroeconomic data used in the estimation
 - `/figures`: contains the figures used in the paper
 - `/logs` : contains run logs for the simulations and MIC analysis
 - `/models`: contains the saved trained BEGRS surrogate models and their associated posterior estimates
@@ -30,7 +30,7 @@ The release provides a zipped archive containing the following folders. These co
 
 The codebase for running the ABM model can be found in the following repositories:
 - The *Benchmark model* itself: https://github.com/S120/benchmark
-- The Java Macroeconomic Agent-Based (JMAB) framework for running the model https://github.com/S120/jamb
+- The Java Macroeconomic Agent-Based (JMAB) framework for running the model https://github.com/S120/jmab
 
 This repository contains the following files/folders that were generated from this codebase:
 - `bechmark_sfc.jar` - A Java Archive containing the main files for running the model in Java
