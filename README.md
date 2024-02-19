@@ -40,7 +40,7 @@ Running these require the following folders from the release: `/benchmark_sfc_li
 
 ## Run sequence:
 
-The various scripts should be run in the following order, as the outputs of earlier scripts for the inputs of later ones. To run a later file (e.g. output generation) without running an earlier file (e.g. estimation), use the folders provided in the release as the source of the intermediate inputs. Files within a subsection can be run in any order.
+The various scripts should be run in the following order, as the outputs of earlier scripts for the inputs of later ones. To run a later file (e.g. output generation) without running an earlier file (e.g. estimation), use the folders provided in the release as the source of the intermediate inputs.
 
 ### 1. Generate simulation data
 

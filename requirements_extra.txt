@@ -1,0 +1,5 @@
+sobolsequence==0.2.1
+matplotlib==3.8.3
+pandas==2.2.0
+pyabc==0.12.13
+corner==2.2.2
