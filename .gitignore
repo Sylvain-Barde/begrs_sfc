@@ -1,3 +1,21 @@
+# Shell scripts used for running script on HPC GPUs
+*.sh
+
+# Directories containing simulations/results (too large for direct push)
+benchmark_sfc_lib/
+empData/
+figures/
+logs/
+models/
+sbc/
+scores/
+setup/
+simData/
+tables/
+
+# Zip files
+*.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
